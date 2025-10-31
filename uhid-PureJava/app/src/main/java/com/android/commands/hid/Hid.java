@@ -208,7 +208,7 @@ public class Hid {
 
         Device mouse = new Device(1, "uHidMouse", "1",1234, 5678, 0x03, hidMouseDescriptor, mouseCode, null, null);
         Device keyboard = new Device(2, "uHidKeyboard","2", 8765, 4321, 0x03, hidKeyboardDescriptor, keyboardCode, null, null);
-        Device gamePad = new Device(3, "uHidGamePad", "3",2345, 6789, 0x03, hidGamePadDescriptor, gamePadCode, null, null);
+        Device gamePad = new Device(3, "Xbox Wireless Controller", "3",2345, 6789, 0x03, hidGamePadDescriptor, gamePadCode, null, null);
         Device touchScreen = new Device(4, "uHidTouchScreen", "4",6789, 2345, 0x03, hidTouchScreenDescriptor, touchScreenCode, null, null);
 
 
